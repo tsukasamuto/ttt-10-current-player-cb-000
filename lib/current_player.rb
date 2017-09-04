@@ -19,5 +19,3 @@ begin def turn_count(board)
   end
   turns
 end
-
-
