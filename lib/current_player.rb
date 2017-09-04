@@ -1,3 +1,4 @@
+=begin
 def turn_count(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   count = 0
@@ -7,5 +8,13 @@ def turn_count(board)
     else
       count += 1
     end
+  end
+end
+=end
+
+def turn_count(board)
+  board = ["X", " ", ")", " ", " ", " ", " ", " ", " "]
+  board.each do |position|
+    puts "#{position}"
   end
 end
