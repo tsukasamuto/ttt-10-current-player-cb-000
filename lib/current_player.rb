@@ -13,7 +13,7 @@ end
 =end
 
 def turn_count(board)
-  board = ["X", " ", ")", " ", " ", " ", " ", " ", " "]
+  board = ["X", " ", "O", " ", " ", " ", " ", " ", " "]
   board.each do |position|
     puts "#{position}"
   end
