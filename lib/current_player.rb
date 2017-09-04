@@ -1,4 +1,5 @@
 def turn_count(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
   count = 0
   board.each do |space|
     if "#{space}" == " "
@@ -8,3 +9,5 @@ def turn_count(board)
     end
   end
 end
+
+
