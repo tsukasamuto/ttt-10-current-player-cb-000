@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+
 
 =begin
 def turn_count(board)
