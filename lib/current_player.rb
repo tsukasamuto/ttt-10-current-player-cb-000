@@ -9,3 +9,5 @@ def turn_count(board)
     end
   end
 end
+
+primary_colors = ["r"]
