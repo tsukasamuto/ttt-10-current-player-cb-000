@@ -19,7 +19,7 @@ def turn_count(board)
   turns
 end
 
-=begin  
+=begin
 def turn_count(board)
  turns = 0
  board.each do |token|
